@@ -24,9 +24,6 @@ public class Prestito {
 
     private LocalDate dataRestituzioneEffettiva;
 
-    // Costruttore
-
-
     public Prestito(Utente utente, Elemento elemento, LocalDate dataInizioPrestito) {
         this.utente = utente;
         this.elemento = elemento;
