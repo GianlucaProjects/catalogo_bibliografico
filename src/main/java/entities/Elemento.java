@@ -21,6 +21,10 @@ public abstract class Elemento {
     @OneToMany(mappedBy = "elemento", fetch = FetchType.LAZY)
     private List<Prestito> prestiti;
 
+    public Elemento() {
+
+    }
+
     public Elemento(String isbn, String titolo, int annoPubblicazione, int numeroPagine) {
         this.isbn = isbn;
         this.titolo = titolo;
